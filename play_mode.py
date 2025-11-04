@@ -34,6 +34,8 @@ def init():
 
 def update():
     game_world.update()
+    #강제로 딜레이 추가
+    #delay(0.8)
 
 def draw():
     clear_canvas()
